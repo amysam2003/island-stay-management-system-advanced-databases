@@ -52,7 +52,7 @@ All MongoDB queries are implemented using VS Code (Visual Studio Code) MongoDB E
 (vi) playground-6    :  Testing Aggregation
 (vii) playground-7   :  Lookup
 (viii) playground-8  :  Indexing
-(i) playground-9     :  Index testing
+(ix) playground-9    :  Index testing
 (x) playground-10    :  Sorting and Limit
 
 ## How to Run The Playgrounds
