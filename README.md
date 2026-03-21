@@ -1,4 +1,4 @@
-# Island Stay Management System – Advanced Databases
+# Island Stay Management System - Advanced Databases
 The Island Stay Management System shows a Hybrid Database Approach for Island Stay Management System using SQL and MongoDB 
 
 ## Overview
