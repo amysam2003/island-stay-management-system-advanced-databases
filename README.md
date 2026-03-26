@@ -21,9 +21,10 @@ The main features include:
 (ii) JOIN queries
 (iii) Aggregation (such as the COUNT, AVG)
 
-## How to run the Database
+## How to run the SQL Database
 1. Open MySQL Workbench
-2. Run the `islandstay.sql` file
+2. Create a Database and name it as islandstay
+3. Run the `islandstay.sql` file
 
 ## NoSQL Database (MongoDB)
 
@@ -44,6 +45,12 @@ The CRUD Operations implemented:
 (v) Aggregation pipelines
 (vi) Indexing
 
+## How to run the NoSQL Database
+1. Open MongoDB Compass
+2. Connect to localhost:27017
+3. Use the Database: test
+4. Import islandreviews.json into the collection: islandreviews
+
 ## MongoDB Playgrounds
 
 All MongoDB queries are implemented using VS Code (Visual Studio Code) MongoDB Extension and they are:
@@ -60,9 +67,9 @@ All MongoDB queries are implemented using VS Code (Visual Studio Code) MongoDB E
 
 ## How to Run The Playgrounds
 1. Open VS Code (Visual Studio Code)
-2. Install MongoDB Extension
+2. Install MongoDB Extension and ensure MongoDB is running on Localhost:27017
 3. Open any `.mongodb.js` file
-4. Run the queries directly
+4. Run the queries directly using the Run Button
    
 The main features include:
 (i) Hybrid Database Design
