@@ -3,10 +3,12 @@ The Island Stay Management System shows a Hybrid Database Approach for Island St
 
 ## Overview
 The system manages both SQL and NoSQL as the aim to show how it handles both kinds of data efficiently under a Single Application Environment.
+The SQL and NoSQL is not connected Directly to each other,  instead each of the Database-The SQL Database and NoSQL Database is connected independently to the Spring Boot Application only.
 (i) Structured Data (SQL): Guests, Rooms, Bookings
 (ii) Unstructured Data (NoSQL): Reviews Data
 
 ## SQL Database
+For this project, the Main Datase used is SQL Database only.
 
 The SQL database includes these three main tables as listed:
 (i) Guests
@@ -25,6 +27,7 @@ The main features include:
 
 ## NoSQL Database (MongoDB)
 
+NoSQL Database is used here as a secondary Database for demonstration purpose only for the Review Data (Guest Reviews).
 MongoDB is used to store the Unstructured Data which is the review data in JSON format.
 
 In Localhost:27017
